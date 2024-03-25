@@ -1,0 +1,68 @@
+Next.js Documentation
+
+Introduction:
+
+Welcome to the Next.js documentation! Next.js is a powerful React framework that enables efficient and scalable web application development. This documentation will guide you through the fundamentals of Next.js, covering topics such as project setup, routing, layout structuring, and more.
+
+Getting Started:
+
+To start developing with Next.js, ensure you have Node.js installed on your system. Then, follow these steps:
+
+1. Installation: Install Next.js by running the following command in your terminal:
+
+   npm install next react react-dom
+
+2. Project Setup: Create a new Next.js project by running:
+
+   npx create-next-app my-next-app
+
+3. Development Server: Start the development server by navigating into your project directory and running:
+
+   npm run dev
+
+   This command will launch the Next.js development server, allowing you to preview your application locally.
+
+Flow:
+
+Running Development Server:
+
+During development, execute the following command to start the Next.js development server:
+
+npm run dev
+
+This command internally invokes next dev, which sets up a development environment for your Next.js application.
+
+Layout Structure:
+
+In Next.js, the layout structure plays a crucial role in organizing your application components. Typically, you'll define a layout component, such as layout.tsx, which encapsulates the common UI elements shared across multiple pages.
+
+Page Components:
+
+Each page in your Next.js application is represented by a React component. These components are typically stored in the pages directory and follow a specific naming convention for routing purposes.
+
+Routing:
+
+File-Based Routing:
+
+Next.js follows a file-based routing system, where the route path corresponds to the file structure within the pages directory. By default, Next.js provides a 404 Not Found page.
+
+Nested Routing:
+
+To implement nested routing in Next.js, you can create subfolders within the pages directory. Each subfolder should contain its own page.tsx file, representing a nested route.
+
+Dynamic Routing:
+
+Next.js allows for dynamic routing by using brackets `[]` in the filename within the pages directory. This enables you to create dynamic routes based on parameters passed in the URL.
+
+For example, to create a dynamic route for `/users/[id]`, you would create a file named `[id].tsx` within the pages/users directory.
+
+Nested Routing:
+
+To implement nested routing in Next.js, you can create subfolders within the pages directory. Each subfolder should contain its own page.tsx file, representing a nested route.
+
+
+Conclusion:
+
+This documentation provides a brief overview of Next.js fundamentals, including project setup, flow, layout structuring, and routing. For more in-depth information and advanced features, refer to the official Next.js documentation and explore the vast capabilities of this powerful framework.
+
+Happy coding with Next.js! 🚀
